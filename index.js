@@ -9,7 +9,7 @@ function setCart(c) {
   return cart;
 }
 
-function addToCart(item, price) {
+function addToCart(item) {
   var add = cart.push(item);
   console.log(add);
   return cart;
