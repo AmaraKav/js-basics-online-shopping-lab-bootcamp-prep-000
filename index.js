@@ -12,6 +12,7 @@ function setCart(c) {
 function addToCart(item, price) {
   var add = cart.item[price];
   console.log(add);
+  return cart;
 }
 
 function viewCart() {
