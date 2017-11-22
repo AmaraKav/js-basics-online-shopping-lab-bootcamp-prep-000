@@ -10,8 +10,8 @@ function setCart(c) {
 }
 
 function addToCart(item, price) {
- card.item = 
- 
+ card.item = price;
+
 }
 
 function viewCart() {
