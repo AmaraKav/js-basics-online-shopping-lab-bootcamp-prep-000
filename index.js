@@ -9,8 +9,8 @@ function setCart(c) {
   return cart;
 }
 
-function addToCart(itemName, itemPrice) {
-  cart.push({itemName: itemPrice});
+function addToCart(itemName) {
+  cart.push({itemName});
   return cart;
 }
 
